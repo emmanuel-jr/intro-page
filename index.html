@@ -1,0 +1,62 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/index.css">
+    <title>Intro Page</title>
+</head>
+<body>
+    <div class="content">
+        <div class="head">
+            <h2>Hello there! I'm Emmanuel &#128578;</h2>
+            <h4>I will be mastering Web Development this summer</h4>
+            <img src="assets/profile.jpg" alt="Myself in winter jacket smiling">
+        </div>
+
+        <div class="myinfo">
+          <p><h5 style="color: black;">A brief introduction</h5></p>
+          <p>
+            I am from Ghana. I am in my 2nd year now majoring in Software Systems Development
+            at the University of Regina, Canada. Always thought of offering Medicine, but 
+            after high school, I got fascinated with the prospects and innovations in 
+            Software Development. I simply did some research and took a few Computer Science 
+            courses. I am a sports person, soccer is my favourite. I love video games too.
+          </p>
+        </div>
+        <form>
+            <div class="outer">
+                <div class="fill-up">
+                    <input type="text" placeholder="Enter text..." id="here"/>
+
+                    <div>
+                        <input name="gender" id="male" type="radio" value="male">
+                        <label for="male">Male</label>
+
+                        <input name="gender" id="Female" type="radio" value="female">
+                        <label for="Female">Female</label>
+                        
+                        <input name="gender" id="Other" type="radio" value="other">
+                        <label for="Other">Other</label>
+                    </div>
+        
+                    <input type="checkbox" id="connect" name="connect" onclick="show()" value="Yes"/>
+                    <label for="connect">Ready to connect?</label>
+                    <span style="display: none;" id="links" class="my-arrow-div">
+                        <a href="https://github.com/emmanuel-jr"><i class="fa fa-github-alt fa-2x"></i></a>
+                        <a href="https://www.instagram.com/idunj_r/"><i class="fa fa-instagram fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/emmanuel-idun-40880b17b/"><i class="fa fa-linkedin fa-2x"></i></a>
+                    </span>
+                </div>
+
+                <div class="done">
+                    <button class="btn btn-primary">Sumbit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+  
+    <script src="script.js"></script>
+</body>
+</html>
